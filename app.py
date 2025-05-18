@@ -6,7 +6,7 @@ from PIL import Image
 
 # Load model and class names
 model = load_model('grape_plant.h5')  # Your saved model
-class_names = ['Leaf Blight','Black Measles','Balck Rot','Healthy']  # Replace with actual class labels
+class_names = ['Black Rot', 'Black Measles(ESCA)', 'Leaf Blight', 'Healthy']  # Replace with actual class labels
 
 st.title("Grape Leaf Disease Classifier")
 st.write("Upload an image of a leaf to predict its disease.")
